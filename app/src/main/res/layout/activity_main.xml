@@ -16,4 +16,24 @@
         android:onClick="sendMessage"
         android:text="Отправить сообщение" />
 
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="188dp"
+        android:onClick="registerBroadcastReceiver"
+        android:text="Регистрация" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="111dp"
+        android:onClick="unregisterBroadcastReceiver"
+        android:text="Отмена" />
+
 </RelativeLayout>
